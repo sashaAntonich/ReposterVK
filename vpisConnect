@@ -1,0 +1,1 @@
+ssh -i "/Users/detravin/Workspace/keys/aws.pem" ec2-user@ec2-3-14-13-195.us-east-2.compute.amazonaws.com

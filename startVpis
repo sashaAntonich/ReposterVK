@@ -1,0 +1,3 @@
+mvn clean compile assembly:single
+scp -i "/Users/detravin/Workspace/keys/aws.pem" /Users/detravin/Workspace/ReposterVK/target/*.jar ec2-user@ec2-3-14-13-195.us-east-2.compute.amazonaws.com:
+nohup ssh -i "/Users/detravin/Workspace/keys/aws.pem" ec2-user@ec2-3-14-13-195.us-east-2.compute.amazonaws.com 'nohup java -jar *.jar -appToken=b4f5f575b4f5f575b4f5f575c7b49e6f11bb4f5b4f5f575e9d3e19d49e753427045c479 -appId=7051876 -accessToken=09a24d3b840b86300058f05dc77b51ebc6a63da01f9b5530dcd97910e82f48aa0dfe298fa5cf80f5fd285 -userId=534759816 -groupId=vpiski_saint_p -groupsFromIds=vpisssska,vpiskaofficial,byhaipim -emailsToNotify=travin.denis.const@gmail.com,Stuffing.1@yandex.ru &' &
