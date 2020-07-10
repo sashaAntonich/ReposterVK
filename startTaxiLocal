@@ -1,0 +1,2 @@
+mvn clean compile assembly:single
+java -jar target/*.jar -appToken=3b48facc3b48facc3b48faccbc3b23cc6a33b483b48facc664114857d1ddbb08c116495 -appId=7026342 -accessToken=6c6aa2ae84938648f6770fd1a6252b516bbe530d399a78f7d5a26fd6c35d41f4e2caa5c7db3a84a95e358 -userId=604513219 -groupId=kredit_zaim_bot -groupsFromIds=govno1847542735 -emailsToNotify=travin.denis.const@gmail.com,Stuffing.1@yandex.ru
